@@ -1,0 +1,19 @@
+div {
+  width: 360px;
+  height: 528px;
+  border: 1px solid black;
+}
+
+.food_card_image {
+  width: 360px;
+  height: 216px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.food_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
