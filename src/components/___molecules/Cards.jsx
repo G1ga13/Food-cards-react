@@ -4,6 +4,9 @@ import Title from "../___atoms/TitleIngredients/Title.jsx";
 import Numbers from "../___atoms/numbers/calories/Celsius.jsx";
 import Price from "../___atoms/numbers/productPrice/Price.jsx";
 import Button from "../___atoms/buttons/Button.jsx";
+// import cake from "../../assets/images/cake.jpg";
+// import pizza from "../../assets/images/pizza.jpg";
+// import tortellini from "../../assets/images/tortellini.jpg";
 
 function Card({
   title,
