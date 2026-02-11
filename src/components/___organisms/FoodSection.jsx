@@ -38,7 +38,7 @@ function Section() {
           "Three layer strawberry dessert is not only beautiful looking, but also delicious! Perfect dessert for spring and summer."
         }
         first="346 Cal"
-        second="42.4 °C"
+        second="P/F/C: 6/14/49"
         third="13.9 °C"
         newPrice="$13.90"
         oldPrice="$18.90"
