@@ -7,9 +7,36 @@ import Tortellini from "../../assets/images/tortellini.jpg";
 function Section() {
   return (
     <>
-      <Card title="Pepperoni Pizza" img={Pizza} />
-      <Card title="Tortellini" img={Cake} />
-      <Card title="Strawberry Cake" img={Tortellini} />
+      <Card
+        title="Pepperoni Pizza"
+        img={Pizza}
+        ingredients={
+          "Premium pepperoni and cheese is made with real mozzarella on original hand-tossed crust."
+        }
+        first="265 Cal"
+        second="P/F/C: 12/10/31"
+        third="53.8 °C"
+      />
+      <Card
+        title="Tortellini"
+        img={Cake}
+        ingredients={
+          "Pasta stuffed with beef and pork topped with your choice of cream sauce with bacon, bolognese or marinara sauce."
+        }
+        first="270 Cal"
+        second="P/F/C: 18/4/41"
+        third="42.4 °C"
+      />
+      <Card
+        title="Strawberry Cake"
+        img={Tortellini}
+        ingredients={
+          "Three layer strawberry dessert is not only beautiful looking, but also delicious! Perfect dessert for spring and summer."
+        }
+        first="346 Cal"
+        second="42.4 °C"
+        third="13.9 °C"
+      />
     </>
   );
 }

@@ -1,13 +1,14 @@
 import "./Title.css";
 
-function Title({ children, className = "" }) {
+function Title({ title, text, className = "" }) {
   return (
     <>
       <div className="title_container">
-        <h1 className={`title ${className}`}>{children}</h1>
+        <h1 className={`title ${className}`}>{title}</h1>
       </div>
+
       <div className="text_container">
-        <p className={`text ${className}`}>{children}</p>
+        <p className={`text ${className}`}>{text}</p>
       </div>
     </>
   );

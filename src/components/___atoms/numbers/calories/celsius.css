@@ -1,0 +1,15 @@
+p {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  color: rgba(165, 173, 187, 1);
+}
+
+.numbers_container {
+  display: flex;
+  justify-content: space-between;
+  width: 312px;
+  height: 25px;
+}
