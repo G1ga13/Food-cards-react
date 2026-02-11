@@ -15,3 +15,14 @@ body {
   display: flex;
   gap: 40px;
 }
+
+@media (max-width: 1160px) {
+  .main_container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  body {
+    height: 100%;
+  }
+}
