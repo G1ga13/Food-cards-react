@@ -1,0 +1,15 @@
+button {
+  width: 114px;
+  height: 44px;
+  opacity: 1;
+  border-radius: 4px;
+  color: white;
+  background-color: rgba(46, 204, 113, 1);
+  border: none;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 4px;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 216px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.image_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

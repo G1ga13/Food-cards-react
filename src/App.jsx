@@ -3,7 +3,7 @@ import Section from "./components/___organisms/FoodSection";
 
 function App() {
   return (
-    <div>
+    <div className="main_container">
       <Section />
     </div>
   );
